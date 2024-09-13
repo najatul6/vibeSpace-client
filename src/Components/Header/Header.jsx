@@ -1,7 +1,7 @@
 const Header = () => {
   return (
     <div>
-      <ul className="menu menu-horizontal bg-base-200 rounded-box mt-6">
+      <ul className="menu menu-horizontal bg-base-200 rounded-box mt-6 w-full justify-between">
         <li>
           <a className="tooltip" data-tip="Home">
             <svg
