@@ -1,4 +1,10 @@
 const Header = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  // Function to handle menu toggle
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
   return (
     <div>
       <nav className="bg-white shadow fixed w-full z-10">
