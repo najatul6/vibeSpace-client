@@ -45,9 +45,7 @@ const Header = () => {
           {/* Right section - Mobile Menu Toggle Button */}
           <div className="md:hidden flex items-center ">
             <button onClick={toggleMenu} className="focus:outline-none">
-              <svg className="w-8 h-8 " fill="currentColor" viewBox="0 0 20 20">
-                <path d="M3 5h14M3 10h14M3 15h14" />
-              </svg>
+              {isMenuOpen? "open":'close'}
             </button>
           </div>
         </div>
