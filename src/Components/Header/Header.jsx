@@ -45,7 +45,7 @@ const Header = () => {
           {/* Right section - Mobile Menu Toggle Button */}
           <div className="md:hidden flex items-center ">
             <button onClick={toggleMenu} className="focus:outline-none">
-              {isMenuOpen? "open":'close'}
+              {isMenuOpen? "Close":"Open"}
             </button>
           </div>
         </div>
