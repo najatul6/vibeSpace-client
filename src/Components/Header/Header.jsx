@@ -9,7 +9,7 @@ const Header = () => {
   };
   return (
     <div>
-      <nav className="bg-white shadow fixed w-full z-10">
+      <nav className=" shadow w-full z-10">
         <div className="container mx-auto px-4 py-2 flex justify-between items-center">
           {/* Left section - Logo */}
           <div className="text-blue-600 text-2xl font-bold">
@@ -43,16 +43,16 @@ const Header = () => {
             </a>
           </div>
           {/* Right section - Mobile Menu Toggle Button */}
-          <div className="md:hidden flex items-center">
+          <div className="md:hidden flex items-center bg-red-400">
             <button onClick={toggleMenu} className="focus:outline-none">
-              <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
+              <svg className="w-8 h-8 " fill="currentColor" viewBox="0 0 20 20">
                 <path d="M3 5h14M3 10h14M3 15h14" />
               </svg>
             </button>
           </div>
         </div>
         {/* Mobile Menu (Hidden by default, shown when toggled) */}
-        <div className={`${isMenuOpen ? 'block' : 'hidden'} md:hidden bg-white shadow-lg px-4 py-2`}>
+        <div className={`${isMenuOpen ? 'block' : 'hidden'} md:hidden bg-base-300 shadow-lg px-4 py-2`}>
           <a href="#" className="block py-2 text-gray-600 hover:text-blue-600">Home</a>
           <a href="#" className="block py-2 text-gray-600 hover:text-blue-600">Search</a>
           <a href="#" className="block py-2 text-gray-600 hover:text-blue-600">Notifications</a>
