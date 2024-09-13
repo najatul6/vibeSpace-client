@@ -50,7 +50,7 @@ const Header = () => {
           </div>
         </div>
         {/* Mobile Menu (Hidden by default, shown when toggled) */}
-        <div className={`${isMenuOpen ? 'block' : 'hidden'} md:hidden bg-base-300 shadow-lg px-4 py-2`}>
+        <div className={`${isMenuOpen ? 'block' : 'hidden'} md:hidden duration-300 bg-base-300 shadow-lg px-4 py-2`}>
           <a href="#" className="block py-2 text-gray-600 hover:text-blue-600">Home</a>
           <a href="#" className="block py-2 text-gray-600 hover:text-blue-600">Search</a>
           <a href="#" className="block py-2 text-gray-600 hover:text-blue-600">Notifications</a>
