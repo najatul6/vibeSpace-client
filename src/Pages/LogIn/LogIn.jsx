@@ -1,7 +1,7 @@
-import useAuth from "../../Hooks/useAuth";
+// import useAuth from "../../Hooks/useAuth";
 
 const LogIn = () => {
-  const auth = useAuth();
+  // const auth = useAuth();
   return (
     <div class="hero bg-base-200 min-h-screen">
       <div class="hero-content flex-col lg:flex-row-reverse">
